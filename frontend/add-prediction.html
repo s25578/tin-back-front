@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Prediction - Satoshi Nakamoto Backoffice</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header>
+    <h1>Satoshi Nakamoto Backoffice v0.0.1</h1>
+</header>
+
+<main>
+    <section id="top10-cryptos">
+        <h2>Add New Prediction</h2>
+        <form id="add-prediction-form">
+            <div>
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" required>
+            </div>
+            <div>
+                <label for="text">Prediction Text:</label>
+                <textarea id="text" name="text" required></textarea>
+            </div>
+            <div>
+                <label for="symbol">Symbol ID:</label>
+                <input type="text" id="symbol" name="symbol" required>
+                <!--        some day we will provide a select list for our lovely users, but not today -->
+            </div>
+            <button type="submit" class="mt-5">Add Prediction</button>
+        </form>
+    </section>
+
+</main>
+<script src="assets/js/prediction.js"></script>
+</body>
+</html>

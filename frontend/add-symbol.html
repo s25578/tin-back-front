@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Symbol - Satoshi Nakamoto Backoffice</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header>
+    <h1>Satoshi Nakamoto Backoffice v0.0.1</h1>
+</header>
+
+<main>
+    <section>
+        <h2>Add New Symbol</h2>
+        <form id="add-symbol-form">
+            <div>
+                <label for="code">Code:</label>
+                <input type="text" id="code" name="code" required>
+            </div>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required></textarea>
+            </div>
+            <button type="submit" class="mt-5">Add Symbol</button>
+        </form>
+    </section>
+</main>
+<script src="assets/js/symbol.js"></script>
+</body>
+</html>

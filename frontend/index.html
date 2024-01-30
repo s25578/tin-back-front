@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satoshi Nakamoto Backoffice</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header>
+    <h1>Satoshi Nakamoto Backoffice v0.0.1</h1>
+</header>
+<main>
+    <section id="top10-cryptos">
+        <h2>TOP 10 Cryptocurrencies <span class="live">LIVE</span></h2>
+        <ul id="crypto-list"><li>Loading....</li></ul>
+    </section>
+    <section id="symbols">
+        <h2>My Coins <span><a href="add-symbol.html" class="add">ADD</a></span></h2>
+        <table id="symbols-table">
+            <thead>
+            <tr>
+                <th>Code</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </section>
+    <section id="predictions">
+        <h2>My Predictions <span><a href="add-prediction.html" class="add">ADD</a></span></h2>
+        <table id="predictions-table">
+            <thead>
+            <tr>
+                <th>Author</th>
+                <th>Text</th>
+                <th>Symbol</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </section>
+</main>
+<script src="assets/js/index.js"></script>
+<script src="assets/js/binance.js"></script>
+</body>
+</html>
